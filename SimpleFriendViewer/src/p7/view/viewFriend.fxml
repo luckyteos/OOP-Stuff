@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="649.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p7.controller.ViewFriendController">
+   <children>
+      <GridPane layoutX="227.0" layoutY="232.0" prefHeight="185.0" prefWidth="399.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0" prefWidth="190.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="262.0" minWidth="10.0" prefWidth="209.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="99.0" minHeight="9.0" prefHeight="32.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="176.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="31.0" prefWidth="190.0" text="                     Name:">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="190.0" text="                   Contact:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="190.0" text="                       Likes:" GridPane.rowIndex="2">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbNames" prefHeight="21.0" prefWidth="209.0" GridPane.columnIndex="1" />
+            <Label fx:id="lbContact" prefHeight="21.0" prefWidth="209.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="lbLikes" prefHeight="21.0" prefWidth="209.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Button fx:id="btnNext" layoutX="75.0" layoutY="572.0" mnemonicParsing="false" onAction="#handleNext" text="Next" />
+      <Button fx:id="btnPrevious" layoutX="371.0" layoutY="572.0" mnemonicParsing="false" onAction="#handlePrevious" text="Previous" />
+      <Button fx:id="btnClose" layoutX="734.0" layoutY="572.0" mnemonicParsing="false" onAction="#handleClose" text="Close" />
+   </children>
+</AnchorPane>
