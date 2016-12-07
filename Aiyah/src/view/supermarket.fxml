@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="149.0" layoutY="28.0" text="Welcome to NTUC FairPrice">
+         <font>
+            <Font name="Trebuchet MS Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <VBox layoutX="338.0" layoutY="120.0" prefHeight="197.0" prefWidth="339.0" spacing="20.0">
+         <children>
+            <RadioButton mnemonicParsing="false" text="Dried Mushrooms 200g">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="Ikan Fish 200g">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="Eggs (one Carton)">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="Leave Supermarket">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </VBox>
+      <ImageView fitHeight="93.0" fitWidth="146.0" layoutX="21.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/Images/mushroom.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="151.0" layoutX="173.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/Images/How-to-Buy-and-Cook-Fish-to-Boost-Your-Health-Pic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="146.0" layoutX="100.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/Images/a4f5c8d1-3c42-48aa-8ce6-6ebaa5a38800.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="89.0" text="Today's Picks:">
+         <font>
+            <Font name="Trebuchet MS Bold Italic" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
