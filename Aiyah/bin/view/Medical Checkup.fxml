@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="157.0" fitWidth="133.0" layoutX="538.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../resources/Images/1357837355.png" />
+            <Image url="@../../resources/Images/Stethoscope.png" />
          </image>
       </ImageView>
       <Label layoutX="53.0" layoutY="198.0" text="It is time for your yearly medical checkup">
