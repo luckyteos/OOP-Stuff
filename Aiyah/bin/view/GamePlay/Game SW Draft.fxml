@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1048.0" prefWidth="1874.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="-1.0" prefHeight="1004.0" prefWidth="365.0" spacing="15.0" style="-fx-background-color: beige;">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: gold;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Luke Skywalker">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="63.0" text="Health:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="100.0" text="Groceries:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="141.0" text="Cash on Hand:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar layoutX="154.0" layoutY="67.0" prefHeight="23.0" prefWidth="186.0" progress="1.0" style="-fx-accent: pink; -fx-border: none;" />
+                  <ProgressBar layoutX="154.0" layoutY="104.0" prefHeight="23.0" prefWidth="186.0" progress="0.76" style="-fx-accent: green;" />
+                  <Text layoutX="154.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2000" wrappingWidth="113.13709160685539">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="304.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Yoda">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="63.0" text="Health:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="100.0" text="Groceries:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="141.0" text="Cash on Hand:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar layoutX="154.0" layoutY="67.0" prefHeight="23.0" prefWidth="186.0" progress="0.0" style="-fx-accent: pink; -fx-border: none;" />
+                  <ProgressBar layoutX="154.0" layoutY="104.0" prefHeight="23.0" prefWidth="186.0" progress="0.46" style="-fx-accent: green;" />
+                  <Text layoutX="154.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3000" wrappingWidth="113.13709160685539">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="304.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Darth Vader">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="63.0" text="Health:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="100.0" text="Groceries:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="141.0" text="Cash on Hand:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar layoutX="154.0" layoutY="67.0" prefHeight="23.0" prefWidth="186.0" progress="0.0" style="-fx-accent: pink; -fx-border: none;" />
+                  <ProgressBar layoutX="154.0" layoutY="104.0" prefHeight="23.0" prefWidth="186.0" progress="0.64" style="-fx-accent: green;" />
+                  <Text layoutX="154.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$4000" wrappingWidth="113.13709160685539">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="28.0" fitWidth="36.0" layoutX="308.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/Images/Hospital%20Symbol.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="304.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Ben Solo">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="63.0" text="Health:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="100.0" text="Groceries:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="141.0" text="Cash on Hand:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar layoutX="154.0" layoutY="67.0" prefHeight="23.0" prefWidth="186.0" progress="0.0" style="-fx-accent: pink; -fx-border: none;" />
+                  <ProgressBar layoutX="154.0" layoutY="104.0" prefHeight="23.0" prefWidth="186.0" progress="0.76" style="-fx-accent: green;" />
+                  <Text layoutX="154.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$4500" wrappingWidth="113.13709160685539">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="199.0" prefWidth="365.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="R2-D2">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="63.0" text="Health:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="100.0" text="Groceries:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="141.0" text="Cash on Hand:">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar layoutX="154.0" layoutY="67.0" prefHeight="23.0" prefWidth="186.0" progress="1.0" style="-fx-accent: pink; -fx-border: none;" />
+                  <ProgressBar layoutX="154.0" layoutY="104.0" prefHeight="23.0" prefWidth="186.0" progress="0.64" style="-fx-accent: green;" />
+                  <Text layoutX="154.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5200" wrappingWidth="113.13709160685539">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="450.0" layoutY="14.0" prefHeight="900.0" prefWidth="1469.0">
+         <children>
+            <GridPane layoutX="45.0" prefHeight="900.0" prefWidth="1306.0">
+               <columnConstraints>
+                  <ColumnConstraints />
+                  <ColumnConstraints hgrow="SOMETIMES" prefWidth="190.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" prefWidth="190.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" prefWidth="190.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" prefWidth="190.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" prefWidth="190.0" />
+                  <ColumnConstraints hgrow="ALWAYS" prefWidth="190.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" prefWidth="190.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints prefHeight="150.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="150.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="150.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="150.0" vgrow="SOMETIMES" />
+                  <RowConstraints prefHeight="150.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="150.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="150.0" vgrow="ALWAYS" />
+               </rowConstraints>
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fx:id="Bank213" fitHeight="128.0" fitWidth="124.0" layoutX="31.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Go.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="Bank2" fitHeight="119.0" fitWidth="197.0" layoutX="19.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Bank2.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="TransportationChoice4" fitHeight="117.0" fitWidth="129.0" layoutX="35.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Transportation2(Temp).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fitHeight="119.0" fitWidth="165.0" layoutX="42.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/ALLBILLS.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="GroceriesWet2" fitHeight="89.0" fitWidth="179.0" layoutX="4.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/WetMarket.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7">
+                     <children>
+                        <ImageView fx:id="Hospital" fitHeight="102.0" fitWidth="102.0" layoutX="8.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Hospital.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="1.0" layoutY="-6.0" prefHeight="28.0" prefWidth="186.0" text="     Visiting" textFill="RED">
+                           <font>
+                              <Font name="Comic Sans MS" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="111.0" layoutY="46.0" prefHeight="37.0" prefWidth="124.0" rotate="270.0" text="  SIAM" textFill="RED">
+                           <font>
+                              <Font name="Comic Sans MS" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="MedicalCheckUp2" fitHeight="118.0" fitWidth="135.0" layoutX="26.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/MedicalClinic.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="2">
+                     <children>
+                        <ImageView fx:id="GroceriesHighClass1" fitHeight="119.0" fitWidth="120.0" layoutX="42.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/NTUC.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="3">
+                     <children>
+                        <ImageView fitHeight="119.0" fitWidth="165.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/WATERBILL.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="4">
+                     <children>
+                        <ImageView fx:id="TransportationChoice" fitHeight="124.0" fitWidth="124.0" layoutX="32.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Transportation2(Temp).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="5">
+                     <children>
+                        <Text layoutX="72.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?">
+                           <font>
+                              <Font name="Bookman Old Style" size="80.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="6">
+                     <children>
+                        <ImageView fx:id="MedicalCheckUp" fitHeight="118.0" fitWidth="148.0" layoutX="20.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/MedicalClinic.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="CRASH" fitHeight="129.0" fitWidth="156.0" layoutX="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Crashing.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <children>
+                        <Text layoutX="71.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?">
+                           <font>
+                              <Font name="Bookman Old Style" size="80.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="TransportationChoice3" fitHeight="119.0" fitWidth="144.0" layoutX="34.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Transportation2(Temp).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fitHeight="119.0" fitWidth="165.0" layoutX="51.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/ELECTRICITYBILL.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="GroceriesHighClass2" fitHeight="59.0" fitWidth="169.0" layoutX="9.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/fairprice.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="GroceriesWet1" fitHeight="112.0" fitWidth="156.0" layoutX="16.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/WetMerket2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="TransportationChoice2" fitHeight="124.0" fitWidth="169.0" layoutX="32.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Transportation2(Temp).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <children>
+                        <Text layoutX="72.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?">
+                           <font>
+                              <Font name="Bookman Old Style" size="80.0" />
+                           </font>
+                        </Text>
+                     </children></Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="Bank" fitHeight="118.0" fitWidth="135.0" layoutX="31.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Bank3.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fitHeight="109.0" fitWidth="166.0" layoutX="21.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Chit-Chat.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <Text layoutX="71.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?">
+                           <font>
+                              <Font name="Bookman Old Style" size="80.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fitHeight="119.0" fitWidth="165.0" layoutX="51.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/TELEPHONEBILL.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fitHeight="401.0" fitWidth="733.0" layoutX="-263.0" layoutY="-136.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/Images/Aiyah(LightBlue).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      <ProgressBar layoutX="494.0" layoutY="971.0" prefHeight="23.0" prefWidth="1306.0" progress="0.78" style="-fx-accent: orange;" />
+      <Label layoutX="960.0" layoutY="926.0" prefHeight="45.0" prefWidth="382.0" text="29 minutes 40 seconds left">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

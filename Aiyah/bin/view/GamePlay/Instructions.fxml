@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Accordion maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+  <panes>
+    <TitledPane fx:id="firstPane" animated="false" prefHeight="625.0" prefWidth="600.0" text="Game Objectives" wrapText="true">
+         <content>
+            <ScrollPane prefHeight="639.0" prefWidth="598.0">
+               <content>
+                  <AnchorPane prefHeight="580.0" prefWidth="580.0">
+                     <children>
+                        <Text layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Aiyah!" textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="45.0" />
+                           </font>
+                        </Text>
+                        <Text layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This game is for people of age 65 and above." textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The object of this game is to become the wealthiest player through sound decision-making and staying healthy. The player with the highest points wins." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The game ends when either the time limit has ended or the first person becomes bankrupt." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="160.0" layoutY="450.0" mnemonicParsing="false" text="Back to Player Information">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </content>
+    </TitledPane>
+    <TitledPane animated="false" prefHeight="1169.0" prefWidth="573.0" text="Game Rules">
+         <content>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <AnchorPane prefHeight="1610.0" prefWidth="580.0">
+                     <children>
+                        <Text layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winning" textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="45.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The person with the highest number of points at the end of the game wins." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bankruptcy" textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="45.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You are declared bankrupt if you have spent all your assets." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital" textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="45.0" />
+                           </font>
+                        </Text>
+                        <Text layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You go to Hospital if:" textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- You get into an accident (or something similar)." textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- You draw a card marked GO TO HOSPITAL." textAlignment="CENTER" wrappingWidth="580.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When you are sent to hospital, your turn ends immediately. You do not pass GO, but instead move directly to HOSPITAL." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="700.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you are not &quot;admitted to the Hospital&quot; but, in the ordinary course of play, reach that space, you are considered &quot;just visiting&quot; and incur no medical expenditure. You move ahead in the usual manner on your next turn." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="860.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You get out of HOSPITAL by:" textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="890.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Throwing doubles on any of your next three turns and then answering a simple question." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="975.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Using your GET A PERSONAL DOCTOR card if you have it." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="1030.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Purchasing a GET A PERSONAL DOCTOR card from another player and using it." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="1085.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Paying a discharge fee before throwing the dice on either of your next two turns." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="85.0" layoutY="1165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you do not throw doubles by your third turn, you must pay the discharge fee (determined by &quot;duration of stay&quot; in Hospital)." textAlignment="CENTER" wrappingWidth="410.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="1275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You then get discharged out of Hospital and immediately move forward from Hospital the number of spaces shown by your throw." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="1395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You may still earn interests from the bank even though you are in Hospital." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="160.0" layoutY="1470.0" mnemonicParsing="false" text="Back to Player Information">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </content>
+    </TitledPane>
+      <TitledPane animated="false" text="Tiles &amp; Life">
+         <content>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="910.0" prefWidth="580.0">
+                     <children>
+                        <Text layoutX="85.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This Game's for YOU" textAlignment="CENTER" wrappingWidth="410.0">
+                           <font>
+                              <Font size="45.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We wish to help YOU, the senior citizens, to achieve better financial security in your lives." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This game was designed to have &quot;links&quot; to YOUR life." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We thought that by understanding this &quot;link&quot; better, you may be able to succeed in this game, and also hopefully in your life." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GO Tile" textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This tile is required to start the game." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(just like how you need to be born into this world to live your life)" textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOPPING Tiles" textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All of us love shopping, but only one of us is the wisest..." textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="680.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BILLS Tiles" textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="90.0" layoutY="720.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is part and parcel of life" textAlignment="CENTER" wrappingWidth="400.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="160.0" layoutY="780.0" mnemonicParsing="false" text="Back to Player Information">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+              </content>
+            </ScrollPane>
+         </content>
+      </TitledPane>
+  </panes>
+</Accordion>

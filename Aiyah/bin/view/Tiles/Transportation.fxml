@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="139.0" layoutY="46.0" text="Choose a transportation means">
+         <font>
+            <Font name="Trebuchet MS Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="167.0" fitWidth="201.0" layoutX="636.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Images/Bus.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="667.0" layoutY="330.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="169.0" text="Bus">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="167.0" fitWidth="201.0" layoutX="235.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Images/Train.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="167.0" fitWidth="201.0" layoutX="436.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Images/Taxi.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="452.0" layoutY="330.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="169.0" text="Taxi">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="251.0" layoutY="330.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="169.0" text="Train">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="330.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="169.0" text="Walk">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
