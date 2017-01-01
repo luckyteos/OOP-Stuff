@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="705.0" style="-fx-background-color: STEELBLUE;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="150.0" layoutY="29.0" text="Welcome to Bank@Aiyah!" textFill="WHITE">
+         <font>
+            <Font name="Trebuchet MS Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <VBox layoutX="258.0" layoutY="186.0" prefHeight="173.0" prefWidth="189.0" spacing="20.0">
+         <children>
+            <RadioButton mnemonicParsing="false" text="Deposit" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="Withdraw" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="Leave Bank" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </VBox>
+      <Label layoutX="155.0" layoutY="75.0" text="You have $2000 inside now" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="127.0" text="Would you like to:" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
