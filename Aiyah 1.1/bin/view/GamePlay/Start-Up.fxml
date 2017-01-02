@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="764.0" style="-fx-background-color: #A5F2F3;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="236.0" fitWidth="493.0" layoutX="172.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Images/Aiyah(Orange).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="236.0" fitWidth="448.0" layoutX="172.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Images/HealthFirstLah(Orange).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="892.0" prefWidth="919.0" style="-fx-background-color: aliceblue;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="115.0" prefHeight="117.0" prefWidth="343.0" style="-fx-background-color: gold;" text="Yoda" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="445.0" layoutY="115.0" prefHeight="117.0" prefWidth="475.0" style="-fx-background-color: beige;" text="Pts: 8534" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="232.0" prefHeight="117.0" prefWidth="343.0" style="-fx-background-color: silver;" text="Ben-Solo" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="445.0" layoutY="232.0" prefHeight="117.0" prefWidth="475.0" style="-fx-background-color: #CCCCCC;" text="Pts: 7945" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="349.0" prefHeight="117.0" prefWidth="343.0" style="-fx-background-color: #CD7F32;" text="R2-D2" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="445.0" layoutY="349.0" prefHeight="117.0" prefWidth="475.0" style="-fx-background-color: #dca570;" text="Pts: 6432" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="466.0" prefHeight="117.0" prefWidth="343.0" style="-fx-background-color: #72bcd4;" text="Luke Skywalker" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="445.0" layoutY="466.0" prefHeight="117.0" prefWidth="475.0" style="-fx-background-color: lightblue;" text="Pts: 5943" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="583.0" prefHeight="117.0" prefWidth="343.0" style="-fx-background-color: #72bcd4;" text="Darth Vader" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="445.0" layoutY="583.0" prefHeight="117.0" prefWidth="475.0" style="-fx-background-color: lightblue;" text="Pts: 4447" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="466.0" prefHeight="117.0" prefWidth="102.0" style="-fx-background-color: #72bcd4;" text="4th">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="583.0" prefHeight="117.0" prefWidth="102.0" style="-fx-background-color: #72bcd4;" text="5th">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="307.0" layoutY="760.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="306.0" style="-fx-background-color: lightblue;" text="Winner's Details &gt;&gt;">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutY="115.0" prefHeight="117.0" prefWidth="102.0" style="-fx-background-color: gold;" text="1st" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="232.0" prefHeight="117.0" prefWidth="102.0" style="-fx-background-color: silver;" text="2nd" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="349.0" prefHeight="117.0" prefWidth="102.0" style="-fx-background-color: #CD7F32;" text="3rd" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="298.0" layoutY="48.0" prefHeight="58.0" prefWidth="294.0" text="Aiyah Rankings" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
