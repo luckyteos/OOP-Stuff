@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="705.0" style="-fx-background-color: STEELBLUE;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="705.0" style="-fx-background-color: STEELBLUE;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfirmationBankController">
    <children>
       <Label layoutX="149.0" layoutY="28.0" text="Welcome to Bank@Aiyah!" textFill="WHITE">
          <font>
@@ -23,7 +23,7 @@
             <Font size="30.0" />
          </font>
       </TextField>
-      <Button fx:id="Proceedbtn" layoutX="232.0" layoutY="293.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="242.0" style="-fx-background-color: #82B446;" text="Proceed" textFill="WHITE">
+      <Button fx:id="Proceedbtn" layoutX="232.0" layoutY="293.0" mnemonicParsing="false" onAction="#checkMode" prefHeight="73.0" prefWidth="242.0" style="-fx-background-color: #82B446;" text="Proceed" textFill="WHITE">
          <font>
             <Font size="30.0" />
          </font>
