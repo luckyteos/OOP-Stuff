@@ -24,7 +24,7 @@ public class BankInitialInterfaceController {
 	
 	private Stage stage;
 	private Stage bankDialogStage;
-	private boolean deposit = false;
+	private static boolean deposit;
 	
 	public void handleDeposit (ActionEvent event) {
 		
@@ -36,8 +36,14 @@ public class BankInitialInterfaceController {
 			
 			Scene scene = new Scene (depositPane);
 			bankDialogStage.setScene(scene);
+			
+			//Controller
+			ConfirmationBankController controller = loader.getController();
+			controller.setMainApp(mainApp);
+			
 			bankDialogStage.show();
 			
+			deposit = true;
 			
 			
 			
@@ -61,7 +67,14 @@ public class BankInitialInterfaceController {
 			
 			Scene scene = new Scene (depositPane);
 			bankDialogStage.setScene(scene);
+			
+			//Controller
+			ConfirmationBankController controller = loader.getController();
+			controller.setMainApp(mainApp);
+			
 			bankDialogStage.show();
+			
+			deposit = false;
 			
 			
 			
@@ -86,6 +99,14 @@ public class BankInitialInterfaceController {
 	
 	public void setMainStage (Stage stage){
 		this.stage = stage;
+	}
+
+	public static boolean isDeposit() {
+		return deposit;
+	}
+
+	public static void setDeposit(boolean depositCheck) {
+		deposit = depositCheck;
 	}
 	
 	
