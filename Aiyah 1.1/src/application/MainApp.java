@@ -1,6 +1,7 @@
 package application;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import controller.BankInitialInterfaceController;
 import javafx.application.Application;
@@ -9,6 +10,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import model.Player;
 import view.Tiles.Bank.*;
 
 public class MainApp extends Application {
@@ -16,6 +18,18 @@ public class MainApp extends Application {
 	private static Stage mainStage;
 	private AnchorPane rootPane;
 	
+	private ArrayList <Player> playerArray = new ArrayList<Player> ();
+	
+	public MainApp() {
+		// Generate some sample data
+		playerArray.add(new Player("Mary"));
+		playerArray.add(new Player("Jean"));
+		playerArray.add(new Player("Daniel"));
+	}
+	
+	public ArrayList<Player> getPlayers(){
+		return playerArray;
+	}
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -68,6 +82,7 @@ public class MainApp extends Application {
 			// Get Controller
 			BankInitialInterfaceController controller = bankLoader.getController();
 			controller.setBankDialogStage(bankStage);
+			controller.setMainApp(this);
 			
 			// Showing bank interface
 			bankStage.showAndWait();
